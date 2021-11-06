@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE 'C:/Users/sosli/product.csv'
+INTO TABLE shopping.product
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
