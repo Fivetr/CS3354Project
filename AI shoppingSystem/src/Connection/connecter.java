@@ -5,7 +5,7 @@ public class connecter {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			//connect to mysqlWorkbench
-			Connection connection = DriverManager.getConnection("jdbc:mysql://cs4347.c3bw7ao2sqoy.us-west-2.rds.amazonaws.com:3306/shopping", "Li", "26285194");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://cs4347.c3bw7ao2sqoy.us-west-2.rds.amazonaws.com:3306/shopping", "@###@@#@#@#", "@#@!#!#!#");
 			return connection;
 			
 		}
