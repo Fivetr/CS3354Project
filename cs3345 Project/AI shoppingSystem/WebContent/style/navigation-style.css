@@ -1,0 +1,60 @@
+body {
+	top: 0px;
+}
+    
+.navigation{
+	top: 0px;
+	overflow: hidden;
+    background-image: url(../images/a1.jpg);
+  	border-radius: 10px 10px 10px 10px;
+}
+
+.navigation h2{
+	font-family:"Times New Roman", Times, serif;
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+    
+.navigation a{
+	float: left;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 14px 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+    
+.navigation a:hover{
+	background-color: gray;
+    color: black;
+}
+    
+.navigation .search{
+	float: right
+}
+
+.navigation button{
+	float: right;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 14px 24px;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.navigation button:hover{
+	background-color: gray;
+    color: black;
+}
+
+.navigation input[type=text] {
+	padding: 6px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+    color: black;
+}
